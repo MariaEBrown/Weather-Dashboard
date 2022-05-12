@@ -15,7 +15,7 @@ $(document).ready(function () {
 }
 
    // Selectors for form elements
-   const cityInput = $('#city-input');
+   //const cityInput = $('#city-input');
 
    // Store past searched cities
    let pastCities = [];
@@ -148,5 +148,5 @@ displayCities(pastCities);
 // Display weather for last searched city
 displayLastSearchedCity();
 
-});
+};
         
